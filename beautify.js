@@ -42,8 +42,6 @@ function toggleInput( event ) {
 
     checkbox.checked = !checkbox.checked;
     event.target.classList.toggle( 'checked' );
-
-    console.log('is checked? ' + checkbox.checked);
 }
 
 
